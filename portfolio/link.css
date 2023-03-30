@@ -1,0 +1,141 @@
+
+.top{
+    border: 2px sold black;
+    background-color: aliceblue;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top:18px;
+    padding-left:120px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:lighter;
+}
+
+ul{
+    display:flex;
+    width:400px;
+    justify-content:space-around;
+}
+
+li{
+    list-style-type:none;
+    font-size: 18px;
+    margin:20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:lighter;
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+}
+
+.button{
+    font-weight:lighter;
+    border-radius: 40px;
+    width:90px;
+    height:30px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+    border:2px solid gray;
+    background-color: white;
+    cursor:pointer;
+}
+
+.button-out{
+    padding-right:60px;
+}
+
+.intro{
+    font-family: 'Poppins', sans-serif;
+    padding-left:80px;
+    margin-top:100px;
+}
+.intro h2{
+    font-size: 37px;
+}
+
+span{
+    color:rgb(164, 164, 244);
+    font-weight: bold;
+    font-size: 40px;
+}
+.para{
+    font-size: 20px;
+}
+
+.hire{
+    border:none;
+    font-size: 20px;
+    margin-top:30px;
+    border-radius: 20px;
+    width:120px;
+    height:38px;
+    align-items: center;
+    /* background-color: coral; */
+    cursor:pointer;
+    background-color: white;
+    border:2px solid gray;
+    margin-bottom: 100px;
+}
+
+
+.main{
+    display:flex;
+}
+
+.main img{
+    width:500px;
+    height:690px;
+    margin-top:7px;
+    margin-left:300px;
+    margin-right:80px;
+    filter: drop-shadow(4px 4px 40px rgba(231, 227, 227, 0.826))
+}
+
+button:hover{
+    background-color: rgb(188, 188, 253);
+    transition-duration: 0.8s;
+}
+
+.intro h3{
+    font-size: 24px;
+    margin-bottom:-10px;
+}
+
+.about{
+    font-size: 20px;
+}
+
+.social{
+    display:flex;
+    /* margin-top: 40px; */
+    background-color: aliceblue;
+    display: inline-block;
+    width:72%;
+    padding:20px;
+    height:90px;
+    padding-left:380px;
+}
+
+.connections{
+    padding-left:140px;
+    margin:none;
+    border:none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.social p{
+    padding-top:6px;
+    padding-left:149px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
