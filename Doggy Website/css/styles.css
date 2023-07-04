@@ -1,0 +1,181 @@
+body{
+    font-family:  'Montserrat', sans-serif;
+}
+
+/* Heading */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+/* Padding Section - 3 */
+.padding-items{
+    padding:7% 15%;
+}
+
+/* Text Alignment */
+.align{
+    text-align: center;
+}
+
+/* Colored & White Section */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Title */
+
+#title{
+    padding-bottom: 6%;
+}
+
+.container{
+    padding: 3% 20%;
+    padding-bottom: 5%;;
+}
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.title-img{
+    width:20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Navigation bar */
+
+
+.navbar.navbar-expand-lg.navbar-dark {
+    padding-bottom: 4.5rem !important;
+}
+
+/* (.navbar-brand) */
+.heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Download-btns */
+
+.download-btn{
+    margin:5% 3% 5% 0;
+}
+ 
+
+/* Featute section */
+
+#features{
+   position: relative;
+   z-index: 1;
+}
+
+.row p{
+    color: #8f8f8f;
+    padding: 5%;
+} 
+
+.fa-3x{
+    padding:5% 0 2% 0;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color:#ff4c68 !important; 
+}
+
+
+/* Testimonial */
+
+#testimonials{
+    background-color:#ef8172 ;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+
+/* Press */
+
+#press{
+   background-color: #ef8172 ;
+   padding-bottom:3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* Pricing */
+
+.head{
+    text-align: center;
+    padding:7% 0 1% 0;
+}
+
+p.head{
+    padding:1% 0 2% 0;
+}
+
+.card-body p{
+    padding: 0 !important;
+}
+
+.card{
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:1028px){
+     #title{
+        text-align: center;
+     }
+
+    .title-img{
+        position:static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+
+/* Call to Action */
+
+#cta{
+    padding: 3% 13%;
+    border-radius: 1px;
+}
+
+#cta h3{
+    padding-bottom: 3%;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.button2 {
+    margin-left: 30px;
+}
+
+/* Footer Section */
+
+.footer-icon{
+    margin:20px 10px;
+}
